@@ -1,0 +1,25 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.4.0" />
+    <PackageReference Include="System.Data.SqlClient" Version="4.8.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="BLL.EscapedCake">
+      <HintPath>..\BLL.EscapedCake\bin\Debug\net6.0\BLL.EscapedCake.dll</HintPath>
+    </Reference>
+    <Reference Include="DAL.EscapedCake">
+      <HintPath>..\DAL.EscapedCake\bin\Debug\net6.0\DAL.EscapedCake.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+ 
+
+</Project>
