@@ -14,6 +14,8 @@ namespace EscapedCakeAPI.Controllers
 
         public ProductController(BProductService productService)
         {
+
+            // initialisation var service
             _service = productService;
         }
 
